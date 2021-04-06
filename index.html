@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ignacio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.3.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  <!--Navbar-->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">NACHO</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Inicio</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#about" class="navbar__links" id="home-page">Sobre mí</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#contact" class="navbar__links" id="home-page">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Hero-->
+  <div class="hero" id="home">
+    <div class="hero__container">
+      <img class="hero__heading" src="heading.svg">
+      <p class="hero__description">< Web developer en proceso ></p>
+      <button class="main__btn"><a href="#about">Sobre mi</a></button>
+    </div>
+  </div>
+  <!--About-->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <div class="main__img--card"><img src="walter.jpg" alt=""></div>
+      </div>
+      <div class="main__content">
+        <h1>SOBRE MI</h1>
+        <p>Mi nombre es Ignacio García, tengo 17 años y desde chico siempre tuve curiosidad por la informatica y cómo funcionaban las cosas.</p>
+        <p>En mis tiempos libres me gusta escuchar musica y hacer paginas y aplicaciones sin sentido alguno, simplemente que sean graciosas.</p>
+        <h2>Y mi canción favorita es 505 - Artic Monkeys</h2>
+        <audio controls autoplay>
+          <source src="505 - AM.mp3" type="audio/ogg">
+          <source src="505 - AM.mp3" type="audio/mpeg">
+        </audio>             
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
